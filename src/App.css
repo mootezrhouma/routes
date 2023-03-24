@@ -1,0 +1,64 @@
+
+.App{
+  background-color:rgb(44, 43, 43);
+  margin: auto;
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;
+}
+
+
+
+
+.App-header {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(32, 2, 133);
+}
+
+
+
+
+
+.cardmov{
+
+  margin: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  gap: 65px;
+  justify-content: center;
+}
+
+.text{
+  font-size: medium;
+}
+.title{
+  text-transform: capitalize;
+  text-decoration: solid;
+}
+
+.buttonsecond{
+margin-left: 500px;
+color: red;
+}
+.search{
+  display: flex; justify-content: space-between; 
+  background-color:rgb(42, 41, 41);
+
+}
+.search>h1{
+  color: white;
+  letter-spacing: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.clik{
+  color: white;
+}
+.trailer{
+  color: white;
+  margin: 0%;
+  background-color:rgb(42, 41, 41);
+  height: 100vh;
+}
+
+
